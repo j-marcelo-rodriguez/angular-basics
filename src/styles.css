@@ -1,1 +1,42 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 200;
+}
+
+html,
+body {
+
+    background: rgb(55, 49, 49);
+    margin: 20px;
+    color: #e3e9f0;
+    -webkit-font-smoothing: antialiased;
+}
+
+
+dd {
+    font-weight: bold;
+}
+
+button {
+    background-color: rgb(197, 170, 170);
+    border-radius: 5px;
+    border: 0px;
+    color: rgb(57, 45, 45);
+    cursor: pointer;
+    margin-right: 5px;
+    margin-left: 5px;
+    padding: 5px 10px;
+}
+
+button:hover {
+    background-color: rgb(197, 170, 170);
+}
+
+button:focus {
+    outline: none;
+}
+
+.p-1 {
+    padding: 1px;
+}
